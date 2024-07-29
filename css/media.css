@@ -1,0 +1,17 @@
+@media screen and (max-width: 900px) {
+    .container {
+        width: 97% !important;
+    }
+
+    .inputs {
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        margin: 10px 0;
+        width: 100% !important;
+    }
+}

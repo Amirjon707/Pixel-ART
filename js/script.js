@@ -14,6 +14,7 @@ send.onclick = () => {
             row.appendChild(cell)
             cell.onclick = () => {
                 cell.style.background = `${color.value}`
+                cell.style.border = `none`
             }
         }
     }
